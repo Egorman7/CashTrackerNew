@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="liquidstars.cashtracker.view.MainActivity">
+    <item
+        android:id="@+id/main_action_accounts"
+        android:orderInCategory="100"
+        android:title="@string/activity_main_menu_accounts"
+        android:icon="@drawable/icon_cards"
+        app:showAsAction="always">
+    </item>
+</menu>

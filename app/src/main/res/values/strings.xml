@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Cash Tracker</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add">Create Record</string>
+    <string name="text_cancel">Отмена</string>
+
+    <!--Strings for MainActivity -->
+    <string name="activity_main_account_title">Счет %1$s</string>
+    <string name="activity_main_menu_accounts">Счета</string>
+    <string name="activity_main_dialog_accounts_title">Выберите счет</string>
+    <string name="activity_main_dialog_accounts_create">Создать счет&#8230;</string>
+    <string name="activity_main_dialog_account_create_title">Создать счет</string>
+    <string name="activity_main_dialog_account_create_hint_title">Название</string>
+    <string name="activity_main_dialog_account_create_hint_currency">Валюта</string>
+    <string name="activity_main_dialog_account_create_button_type_card">Банковский</string>
+    <string name="activity_main_dialog_account_create_button_type_cash">Наличный</string>
+    <string name="activity_main_dialog_account_create_ok">Создать</string>
+    <string name="activity_main_string_account_created">Счет создан</string>
+    <string name="activity_main_string_account_error">Заполните поля!</string>
+
+    <string name="diagram_income">Доход</string>
+    <string name="diagram_outcome">Расход</string>
+
+    <!--Drawer Menu-->
+    <string name="navigation_journal">Журнал</string>
+    <string name="navigation_categories">Категории</string>
+    <string name="navigation_accounts">Счета</string>
+    <string name="navigation_statistics">Статистика</string>
+    <string name="navigation_settings">Настройки</string>
+
+    <!--TOASTS-->
+    <string name="toast_record_added">Запись добавлена</string>
+    <string name="toast_category_added">Категория добавлена</string>
+    <string name="toast_category_edited">Категория изменена</string>
+    <string name="toast_account_created">Счет создан</string>
+    <string name="toast_account_edited">Счет изменен</string>
+
+    <!-- strings for AddActivity-->
+    <string name="activity_add_label_account">Счет:</string>
+    <string name="activity_add_hint_value">Сумма</string>
+    <string name="activity_add_hint_date">Дата</string>
+    <string name="activity_add_label_type">Тип:</string>
+    <string name="activity_add_radio_income">Доход</string>
+    <string name="activity_add_radio_outcome">Расход</string>
+    <string name="activity_add_label_category">Категория:</string>
+    <string name="activity_add_hint_description">Описание</string>
+    <string name="activity_add_button_create">Создать запись</string>
+    <string name="activity_add_button_edit">Изменить запись</string>
+    <string name="activity_add_category_add">Создать категорию&#8230;</string>
+    <string name="activity_add_dialog_category_title">Выберите категорию</string>
+
+    <!-- string for JournalActivity -->
+    <string name="activity_journal_from">С </string>
+    <string name="activity_journal_to"> по </string>
+
+
+    <!-- Tools -->
+    <string name="sharedPreferencesSettingsName">cashtrackersettings_dontdelete_please</string>
+    <string name="title_activity_journal">JournalActivity</string>
+    <string name="title_activity_categories">CategoriesActivity</string>
+    <string name="title_activity_accounts">AccountsActivity</string>
+</resources>
